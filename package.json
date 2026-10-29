@@ -23,7 +23,7 @@
     "test:ui": "node scripts/ui-check.mjs"
   },
   "dependencies": {
-    "entities": "4.5.0",
+    "entities": "8.1.0",
     "leaflet": "1.9.4",
     "libphonenumber-js": "1.12.31",
     "robots-parser": "3.0.1"
