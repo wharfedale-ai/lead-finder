@@ -1,0 +1,12 @@
+node_modules/
+# Keys and local settings: never commit
+.env
+.env.*
+!.env.example
+# User data and exports (real data lives in ~/.wharfedale-lead-finder/, this is a safety net)
+.wharfedale-lead-finder/
+state.json*
+searches/
+*.csv
+*.log
+reports/

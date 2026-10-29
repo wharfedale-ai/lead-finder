@@ -1,0 +1,34 @@
+{
+  "name": "wharfedale-lead-finder",
+  "version": "1.0.0",
+  "description": "Find, research and contact local businesses from your own computer. Local-only, no auto-sending.",
+  "license": "MIT",
+  "author": "Wharfedale AI <hello@wharfedale.ai>",
+  "homepage": "https://github.com/wharfedale-ai/lead-finder#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wharfedale-ai/lead-finder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wharfedale-ai/lead-finder/issues"
+  },
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18.18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test",
+    "test:ui": "node scripts/ui-check.mjs"
+  },
+  "dependencies": {
+    "entities": "4.5.0",
+    "leaflet": "1.9.4",
+    "libphonenumber-js": "1.12.31",
+    "robots-parser": "3.0.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1"
+  }
+}
