@@ -26,7 +26,7 @@
     "entities": "4.5.0",
     "leaflet": "1.9.4",
     "libphonenumber-js": "1.12.31",
-    "robots-parser": "3.0.1"
+    "robots-parser": "3.1.1"
   },
   "devDependencies": {
     "@playwright/test": "1.56.1"
